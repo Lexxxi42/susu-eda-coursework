@@ -1,67 +1,67 @@
-# Курсовой проект: Первичный анализ наборов данных различных типов
+# Course project: Primary analysis of data sets of various types
 
-**Университет:** Южно-Уральский государственный университет (ЮУрГУ), Центр «ВиртУм»  
-**Направление:** 01.03.02 «Прикладная математика и информатика»   
-**Студент:** Степаненко Александра Максимовна   
-**Группа:** ЕТ-113  
-**Год:** 2026   
+**University:** South Ural State University (SUSU), VirtUm Center  
+**Direction:** 01.03.02 "Applied Mathematics and Computer Science"   
+**Student:** Stepanenko Alexandra Maksimovna   
+**Group:** ET-113  
+**Year:** 2026   
 
-## Описание проекта
+## Project description
 
-Данный репозиторий содержит исходный код и сопроводительные материалы к курсовому проекту, посвященному поиску и первичному анализу наборов данных пяти основных типов:
-- Табличные данные
-- Временные ряды
-- Изображения
-- Текстовые данные
-- Аудиоданные
+This repository contains the source code and supporting materials for a course project on the search and initial analysis of datasets of five main types:
+- Tabular data
+- Time series
+- Images
+- Text data
+- Audio data
 
-Цель работы — получение практических навыков оценки качества данных, их визуализации и подготовки к использованию в задачах машинного обучения и искусственного интеллекта.
+The purpose of the work is to gain practical skills in assessing the quality of data, visualizing it, and preparing it for use in machine learning and artificial intelligence tasks.
 
 
-## Структура репозитория
+## Repository structure
 
--   `data/`: Исходные датасеты
--   `notebooks/`: Jupyter-ноутбуки с анализом по каждому типу данных.
--   `src/`: Исходный код на Python.
--   `report/`: Файлы отчета курсового проекта.
--   `predict.py`: Скрипт для предсказания на новых данных.
--   `requirements.txt`: Список зависимостей.
+-   `data/`: Source datasets
+-   `notebooks/`: Jupyter notebooks with analysis for each data type.
+-   `src/`: Python source code.
+-   `report/`: Course project report files.
+-   `predict.py`: Script for predicting on new data.
+-   `requirements.txt`: List of dependencies.
 
-## Используемые наборы данных
+## Used datasets
 
-| Тип данных | Название | Источник | Краткое описание |
+| Data type | Name | Source | Description |
 |------------|----------|----------|------------------|
-| **Табличные** | CWRU Bearing Dataset | [Kaggle](https://www.kaggle.com/datasets/brjapon/cwru-bearing-datasets) | Многоклассовая классификация состояния подшипника на основе статистических признаков вибрации. |
+| **Tabular** | CWRU Bearing Dataset | [Kaggle](https://www.kaggle.com/datasets/brjapon/cwru-bearing-datasets) | Multiclass classification of bearing condition based on statistical vibration features. |
 
-## Этапы анализа
+## Analysis steps
 
-### 1. Табличные данные
+### 1. Tabular data
 
-- Визуализация распределения признаков.
-- Визуализация признаков.
-- Анализ на наличие пропусков.
-- Корреляционный анализ.
-- Устранение дубликатов.
-- Анализ и обработка выбросов.
-- Фильтрация данных.
-- Добавление шума.
+- Visualization of feature distribution.
+- Visualization of features.
+- Analysis for missing values.
+- Correlation analysis.
+- Elimination of duplicates.
+- Analysis and processing of outliers.
+- Data filtering.
+- Adding noise.
 
-## Установка и запуск
+## Installation and launch
 
-### 1. Клонирование репозитория
+### 1. Cloning the repository
 ```bash
 git clone git@github.com:Lexxxi42/susu-eda-coursework.git
 cd susu-eda-coursework
 ```
 
-## Создание виртуального окружения 
+## Creating a virtual environment 
 
 ```bash
 python -m venv venv
 source venv/bin/activate
 ```
 
-## Установка зависимостей
+## Installing dependencies
 ```bash
 pip install -r requirements.txt
 ```
